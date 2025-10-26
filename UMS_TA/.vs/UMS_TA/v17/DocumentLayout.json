@@ -1,0 +1,909 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\class\\24-1\\PROJECT\\UMS_TA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|h:\\class\\24-1\\project\\ums_ta\\bll\\services\\addrequestpaperpublishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\addrequestpaperpublishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\addrequestpaperpublishdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\addrequestpaperpublishdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|h:\\class\\24-1\\project\\ums_ta\\ums_ta\\controllers\\applythesiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\controllers\\applythesiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\ums_ta\\controllers\\certificationtablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\controllers\\certificationtablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\ums_ta\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\services\\applythesisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\applythesisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\services\\certificationtableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\certificationtableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\applythesisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\applythesisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\services\\convocationrequestserrvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\convocationrequestserrvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\certificationtabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\certificationtabledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\ums_ta\\controllers\\convocatiorequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\controllers\\convocatiorequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\convocationrequestrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\convocationrequestrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\ums_ta\\controllers\\feedbackandservycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\controllers\\feedbackandservycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\ums_ta\\controllers\\paperpublishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\controllers\\paperpublishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\services\\feedbackandservyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\feedbackandservyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\services\\paperpublishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\services\\paperpublishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\ums_ta\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4463C2DB-358D-4B1E-90D4-870C36CDA130}|UMS_TA\\UMS_TA.csproj|solutionrelative:ums_ta\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\umscontext_ta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\umscontext_ta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\addrequestpaperpublish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\addrequestpaperpublish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\applythesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\applythesis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\convocationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\convocationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\paperpublishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\paperpublishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\addrequestpaperpublishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\addrequestpaperpublishrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\certificationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\certificationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\convocationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\convocationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\feedandsurverydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\feedandsurverydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\ef\\models\\feedandsurvery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\feedandsurvery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\dtos\\paperpublishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\paperpublishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\applythesisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\applythesisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\certificationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\certificationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\feedandsurveyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\feedandsurveyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\repos\\paperpublishlistrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\paperpublishlistrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271309464_publishpaper_db_seeding_again.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271309464_publishpaper_db_seeding_again.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271303221_publishpaper_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271303221_publishpaper_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271241079_add_req_paper_publish_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271241079_add_req_paper_publish_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271236226_applythesis_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271236226_applythesis_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271231541_certification_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271231541_certification_db_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271221425_feedsurveytableseeding3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271221425_feedsurveytableseeding3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271210583_convocationreq_db_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271210583_convocationreq_db_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271202541_convocationrequesttabledb_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271202541_convocationrequesttabledb_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271200305_studenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271200305_studenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271156326_updateseed2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271156326_updateseed2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271052179_updateseed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271052179_updateseed1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271015501_entrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271015501_entrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\migrations\\202404271047220_updateseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202404271047220_updateseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|H:\\class\\24-1\\PROJECT\\UMS_TA\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F481B03-879A-450E-AFA3-C079B667CA42}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddRequestPaperPublishService.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\AddRequestPaperPublishService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AddRequestPaperPublishService.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\AddRequestPaperPublishService.cs",
+              "RelativeToolTip": "BLL\\Services\\AddRequestPaperPublishService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T05:29:17.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplyThesisController.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\ApplyThesisController.cs",
+              "RelativeDocumentMoniker": "UMS_TA\\Controllers\\ApplyThesisController.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\ApplyThesisController.cs",
+              "RelativeToolTip": "UMS_TA\\Controllers\\ApplyThesisController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:46:05.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddRequestPaperPublishDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\AddRequestPaperPublishDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\AddRequestPaperPublishDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\AddRequestPaperPublishDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\AddRequestPaperPublishDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:55:38.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StudentService.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\StudentService.cs",
+              "RelativeToolTip": "BLL\\Services\\StudentService.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAgwGgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:15:33.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UMS_TA\\Controllers\\StudentController.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "UMS_TA\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:27:48.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CertificationTableController.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\CertificationTableController.cs",
+              "RelativeDocumentMoniker": "UMS_TA\\Controllers\\CertificationTableController.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\CertificationTableController.cs",
+              "RelativeToolTip": "UMS_TA\\Controllers\\CertificationTableController.cs",
+              "ViewState": "AQIAACgAAACgzszMzAwiwCYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:30:07.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplyThesisService.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\ApplyThesisService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ApplyThesisService.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\ApplyThesisService.cs",
+              "RelativeToolTip": "BLL\\Services\\ApplyThesisService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:37:45.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CertificationTableService.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\CertificationTableService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\CertificationTableService.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\CertificationTableService.cs",
+              "RelativeToolTip": "BLL\\Services\\CertificationTableService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:23:27.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\StudentDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\StudentDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\StudentDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:47:50.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplyThesisDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\ApplyThesisDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ApplyThesisDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\ApplyThesisDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ApplyThesisDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:54:40.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConvocationRequestSerrvice.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\ConvocationRequestSerrvice.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ConvocationRequestSerrvice.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\ConvocationRequestSerrvice.cs",
+              "RelativeToolTip": "BLL\\Services\\ConvocationRequestSerrvice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:07:59.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConvocatioRequestController.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\ConvocatioRequestController.cs",
+              "RelativeDocumentMoniker": "UMS_TA\\Controllers\\ConvocatioRequestController.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\ConvocatioRequestController.cs",
+              "RelativeToolTip": "UMS_TA\\Controllers\\ConvocatioRequestController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwDcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:13:39.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CertificationTableDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\CertificationTableDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CertificationTableDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\CertificationTableDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CertificationTableDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:53:00.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConvocationRequestRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\ConvocationRequestRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\ConvocationRequestRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\ConvocationRequestRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\ConvocationRequestRepo.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T15:34:20.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FeedbackandServyController.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\FeedbackandServyController.cs",
+              "RelativeDocumentMoniker": "UMS_TA\\Controllers\\FeedbackandServyController.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\FeedbackandServyController.cs",
+              "RelativeToolTip": "UMS_TA\\Controllers\\FeedbackandServyController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T01:43:25.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaperPublishListController.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\PaperPublishListController.cs",
+              "RelativeDocumentMoniker": "UMS_TA\\Controllers\\PaperPublishListController.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Controllers\\PaperPublishListController.cs",
+              "RelativeToolTip": "UMS_TA\\Controllers\\PaperPublishListController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwCMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T01:24:49.852Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FeedbackandServyService.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\FeedbackandServyService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\FeedbackandServyService.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\FeedbackandServyService.cs",
+              "RelativeToolTip": "BLL\\Services\\FeedbackandServyService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAwwD8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T01:36:46.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaperPublishService.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\PaperPublishService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\PaperPublishService.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Services\\PaperPublishService.cs",
+              "RelativeToolTip": "BLL\\Services\\PaperPublishService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T01:08:35.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Web.config",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Web.config",
+              "RelativeDocumentMoniker": "UMS_TA\\Web.config",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\UMS_TA\\Web.config",
+              "RelativeToolTip": "UMS_TA\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-27T05:53:04.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAAK0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:14:44.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UMSContext_TA.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\UMSContext_TA.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\UMSContext_TA.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\UMSContext_TA.cs",
+              "RelativeToolTip": "DAL\\EF\\UMSContext_TA.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T05:56:27.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:35:38.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\Repo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Repo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\Repo.cs",
+              "RelativeToolTip": "DAL\\Repos\\Repo.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:40:42.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddRequestPaperPublish.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\AddRequestPaperPublish.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\AddRequestPaperPublish.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\AddRequestPaperPublish.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\AddRequestPaperPublish.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:49:50.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplyThesis.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\ApplyThesis.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\ApplyThesis.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\ApplyThesis.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\ApplyThesis.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA9wBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:51:57.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConvocationRequest.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\ConvocationRequest.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\ConvocationRequest.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\ConvocationRequest.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\ConvocationRequest.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:45:45.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PaperPublishList.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\PaperPublishList.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\PaperPublishList.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\PaperPublishList.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\PaperPublishList.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:51:27.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Student.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Student.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\Student.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Student.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:44:38.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddRequestPaperPublishRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\AddRequestPaperPublishRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\AddRequestPaperPublishRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\AddRequestPaperPublishRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\AddRequestPaperPublishRepo.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:21:37.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CertificationTable.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\CertificationTable.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\CertificationTable.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\CertificationTable.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\CertificationTable.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:54:32.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ConvocationRequestDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\ConvocationRequestDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ConvocationRequestDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\ConvocationRequestDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ConvocationRequestDTO.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:51:42.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FeedandSurveryDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\FeedandSurveryDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\FeedandSurveryDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\FeedandSurveryDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\FeedandSurveryDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:50:33.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FeedandSurvery.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\FeedandSurvery.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\FeedandSurvery.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\EF\\Models\\FeedandSurvery.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\FeedandSurvery.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:47:12.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PaperPublishListDTO.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\PaperPublishListDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\PaperPublishListDTO.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\DTOs\\PaperPublishListDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\PaperPublishListDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:49:24.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApplyThesisRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\ApplyThesisRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\ApplyThesisRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\ApplyThesisRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\ApplyThesisRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:08:17.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CertificationRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\CertificationRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\CertificationRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\CertificationRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\CertificationRepo.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwCcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:01:51.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FeedandSurveyRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\FeedandSurveyRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\FeedandSurveyRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\FeedandSurveyRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\FeedandSurveyRepo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T15:50:36.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PaperPublishListRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\PaperPublishListRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PaperPublishListRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\PaperPublishListRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PaperPublishListRepo.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwCUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T15:41:58.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\StudentRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\StudentRepo.cs",
+              "ViewState": "AQIAAB4AAAAAMDMzMzMXwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T14:16:02.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:22:15.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "202404271309464_publishpaper_db_seeding_again.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271309464_publishpaper_db_seeding_again.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271309464_publishpaper_db_seeding_again.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271309464_publishpaper_db_seeding_again.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271309464_publishpaper_db_seeding_again.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:09:51.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "202404271303221_publishpaper_db_seeding.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271303221_publishpaper_db_seeding.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271303221_publishpaper_db_seeding.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271303221_publishpaper_db_seeding.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271303221_publishpaper_db_seeding.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:03:27.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "202404271241079_add_req_paper_publish_db_seeding.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271241079_add_req_paper_publish_db_seeding.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271241079_add_req_paper_publish_db_seeding.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271241079_add_req_paper_publish_db_seeding.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271241079_add_req_paper_publish_db_seeding.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:41:13.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "202404271236226_applythesis_db_seeding.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271236226_applythesis_db_seeding.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271236226_applythesis_db_seeding.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271236226_applythesis_db_seeding.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271236226_applythesis_db_seeding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:36:27.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "202404271221425_feedsurveytableseeding3.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271221425_feedsurveytableseeding3.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271221425_feedsurveytableseeding3.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271221425_feedsurveytableseeding3.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271221425_feedsurveytableseeding3.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:21:47.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "202404271231541_Certification_db_seeding.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271231541_Certification_db_seeding.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271231541_Certification_db_seeding.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271231541_Certification_db_seeding.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271231541_Certification_db_seeding.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:31:59.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "202404271210583_convocationreq_db_update.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271210583_convocationreq_db_update.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271210583_convocationreq_db_update.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271210583_convocationreq_db_update.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271210583_convocationreq_db_update.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:11:03.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "202404271202541_convocationrequesttabledb_update.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271202541_convocationrequesttabledb_update.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271202541_convocationrequesttabledb_update.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271202541_convocationrequesttabledb_update.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271202541_convocationrequesttabledb_update.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:02:59.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "202404271200305_studenttable.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271200305_studenttable.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271200305_studenttable.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271200305_studenttable.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271200305_studenttable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T12:00:35.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "202404271156326_updateseed2.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271156326_updateseed2.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271156326_updateseed2.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271156326_updateseed2.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271156326_updateseed2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T11:56:38.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "202404271052179_updateseed1.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271052179_updateseed1.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271052179_updateseed1.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271052179_updateseed1.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271052179_updateseed1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:52:29.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "202404271015501_entrydata.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271015501_entrydata.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271015501_entrydata.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271015501_entrydata.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271015501_entrydata.cs",
+              "ViewState": "AQIAAAAAAABAZmZmZmYUwAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:15:54.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "202404271047220_updateseed.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271047220_updateseed.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202404271047220_updateseed.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Migrations\\202404271047220_updateseed.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202404271047220_updateseed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:47:27.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:40:54.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "H:\\class\\24-1\\PROJECT\\UMS_TA\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T03:40:31.945Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

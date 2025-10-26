@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46E09CAF-C17E-4125-8F7E-2E85ADD04F6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="EF\Models\AddRequestPaperPublish.cs" />
+    <Compile Include="EF\Models\ApplyThesis.cs" />
+    <Compile Include="EF\Models\CertificationTable.cs" />
+    <Compile Include="EF\Models\ConvocationRequest.cs" />
+    <Compile Include="EF\Models\FeedandSurvery.cs" />
+    <Compile Include="EF\Models\PaperPublishList.cs" />
+    <Compile Include="EF\Models\Student.cs" />
+    <Compile Include="EF\UMSContext_TA.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Migrations\202404271015501_entrydata.cs" />
+    <Compile Include="Migrations\202404271015501_entrydata.Designer.cs">
+      <DependentUpon>202404271015501_entrydata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271047220_updateseed.cs" />
+    <Compile Include="Migrations\202404271047220_updateseed.Designer.cs">
+      <DependentUpon>202404271047220_updateseed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271052179_updateseed1.cs" />
+    <Compile Include="Migrations\202404271052179_updateseed1.Designer.cs">
+      <DependentUpon>202404271052179_updateseed1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271156326_updateseed2.cs" />
+    <Compile Include="Migrations\202404271156326_updateseed2.Designer.cs">
+      <DependentUpon>202404271156326_updateseed2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271200305_studenttable.cs" />
+    <Compile Include="Migrations\202404271200305_studenttable.Designer.cs">
+      <DependentUpon>202404271200305_studenttable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271202541_convocationrequesttabledb_update.cs" />
+    <Compile Include="Migrations\202404271202541_convocationrequesttabledb_update.Designer.cs">
+      <DependentUpon>202404271202541_convocationrequesttabledb_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271210583_convocationreq_db_update.cs" />
+    <Compile Include="Migrations\202404271210583_convocationreq_db_update.Designer.cs">
+      <DependentUpon>202404271210583_convocationreq_db_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271221425_feedsurveytableseeding3.cs" />
+    <Compile Include="Migrations\202404271221425_feedsurveytableseeding3.Designer.cs">
+      <DependentUpon>202404271221425_feedsurveytableseeding3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271231541_Certification_db_seeding.cs" />
+    <Compile Include="Migrations\202404271231541_Certification_db_seeding.Designer.cs">
+      <DependentUpon>202404271231541_Certification_db_seeding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271236226_applythesis_db_seeding.cs" />
+    <Compile Include="Migrations\202404271236226_applythesis_db_seeding.Designer.cs">
+      <DependentUpon>202404271236226_applythesis_db_seeding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271241079_add_req_paper_publish_db_seeding.cs" />
+    <Compile Include="Migrations\202404271241079_add_req_paper_publish_db_seeding.Designer.cs">
+      <DependentUpon>202404271241079_add_req_paper_publish_db_seeding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271303221_publishpaper_db_seeding.cs" />
+    <Compile Include="Migrations\202404271303221_publishpaper_db_seeding.Designer.cs">
+      <DependentUpon>202404271303221_publishpaper_db_seeding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404271309464_publishpaper_db_seeding_again.cs" />
+    <Compile Include="Migrations\202404271309464_publishpaper_db_seeding_again.Designer.cs">
+      <DependentUpon>202404271309464_publishpaper_db_seeding_again.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\AddRequestPaperPublishRepo.cs" />
+    <Compile Include="Repos\ApplyThesisRepo.cs" />
+    <Compile Include="Repos\CertificationRepo.cs" />
+    <Compile Include="Repos\ConvocationRequestRepo.cs" />
+    <Compile Include="Repos\FeedandSurveyRepo.cs" />
+    <Compile Include="Repos\PaperPublishListRepo.cs" />
+    <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\StudentRepo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202404271015501_entrydata.resx">
+      <DependentUpon>202404271015501_entrydata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271047220_updateseed.resx">
+      <DependentUpon>202404271047220_updateseed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271052179_updateseed1.resx">
+      <DependentUpon>202404271052179_updateseed1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271156326_updateseed2.resx">
+      <DependentUpon>202404271156326_updateseed2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271200305_studenttable.resx">
+      <DependentUpon>202404271200305_studenttable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271202541_convocationrequesttabledb_update.resx">
+      <DependentUpon>202404271202541_convocationrequesttabledb_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271210583_convocationreq_db_update.resx">
+      <DependentUpon>202404271210583_convocationreq_db_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271221425_feedsurveytableseeding3.resx">
+      <DependentUpon>202404271221425_feedsurveytableseeding3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271231541_Certification_db_seeding.resx">
+      <DependentUpon>202404271231541_Certification_db_seeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271236226_applythesis_db_seeding.resx">
+      <DependentUpon>202404271236226_applythesis_db_seeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271241079_add_req_paper_publish_db_seeding.resx">
+      <DependentUpon>202404271241079_add_req_paper_publish_db_seeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271303221_publishpaper_db_seeding.resx">
+      <DependentUpon>202404271303221_publishpaper_db_seeding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404271309464_publishpaper_db_seeding_again.resx">
+      <DependentUpon>202404271309464_publishpaper_db_seeding_again.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
