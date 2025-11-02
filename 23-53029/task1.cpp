@@ -13,7 +13,7 @@ void push(int value) {
         cout << "Stack Overflow: Cannot push " << value << endl;
     } else {
         stack[++topIndex] = value;
-        cout << "Value pushed: " << value << endl;
+        //cout << "Value pushed: " << value << endl;
     }
 }
 
